@@ -14,7 +14,7 @@ from llama_index.llms.azure_openai import AzureOpenAI
 
 
 
-class model():
+class Model():
 
 
     # TODO dont commit public key
