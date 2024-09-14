@@ -31,7 +31,7 @@ const AudioUpload = ({onUploadSuccess}) => {
 
         try {
             //uploads the audio to the Flask endpoint via POST request
-            const response = await fetch('http://localhost:5000/api/upload', {
+            const response = await fetch('https://dtr34-fastapi--8000.prod1.defang.dev/api/upload', {
                 method: 'POST',
                 body : formData,
             });
@@ -40,7 +40,13 @@ const AudioUpload = ({onUploadSuccess}) => {
                 throw new Error('Failed to upload the audio');
             }
 
-            const data = await response.json(); //gets json from the backend
+            // Fetch the questions list from the /api/download endpoint
+            const downloadResponse = await fetch('https://dtr34-fastapi--8000.prod1.defang.dev/api/download');
+
+            if (!downloadResponse.ok) {
+                throw new Error('Failed to fetch questions');
+            }
+            const data = await downloadResponse.json(); //gets json from the backend
             onUploadSuccess(data.questions);
             
         } catch (err) {
@@ -81,16 +87,21 @@ const AudioUpload = ({onUploadSuccess}) => {
     
                 try {
                     //same as file upload, bring it to the backend
-                    const response = await fetch('http://localhost:5000/api/upload', {
+                    const response = await fetch('https://dtr34-fastapi--8000.prod1.defang.dev/api/upload', {
                         method: 'POST',
-                        body: formData,
+                        body : formData,
                     });
     
                     if (!response.ok) {
                         throw new Error('Failed to upload the audio');
                     }
     
-                    const data = await response.json();
+                    const downloadResponse = await fetch('https://dtr34-fastapi--8000.prod1.defang.dev/api/download');
+
+                    if (!downloadResponse.ok) {
+                        throw new Error('Failed to fetch questions');
+                    }
+                    const data = await downloadResponse.json();
                     onUploadSuccess(data.questions);
                     
                 } catch (err) {
