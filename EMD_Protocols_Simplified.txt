@@ -1,0 +1,175 @@
+Here is a high-level summary of the algorithm or step-by-step process the caller would typically follow for each of the listed protocols. These steps guide the emergency medical dispatcher (EMD) in asking questions and providing instructions to the caller:
+
+### 1. **Protocol 1: Abdominal Pain/Problems**
+   - Ask if the pain is constant or intermittent.
+   - Determine if there is vomiting, fainting, or blood in vomit or stool.
+   - Provide instructions to keep the patient comfortable until responders arrive.
+
+### 2. **Protocol 2: Allergies (Reactions)/Envenomations (Stings, Bites)**
+   - Ask if the patient is having trouble breathing or swelling.
+   - Determine if the patient has an epinephrine auto-injector.
+   - Guide the caller through administering the epinephrine if needed.
+
+### 3. **Protocol 3: Animal Bites/Attacks**
+   - Ask about the type of animal and location of the bite.
+   - Determine if the bleeding is controlled or if there are signs of infection.
+   - Instruct the caller to wash the wound and apply pressure if necessary.
+
+### 4. **Protocol 4: Assault/Sexual Assault/Stun Gun**
+   - Determine the nature of the injury and if the assailant is still present.
+   - Ask if there is any serious bleeding or unconsciousness.
+   - Provide safety instructions and first aid guidance.
+
+### 5. **Protocol 5: Back Pain (Non-Traumatic or Non-Recent Trauma)**
+   - Ask if the patient has had recent trauma or injury to the back.
+   - Determine if the patient can move or if there is numbness in the legs.
+   - Advise the caller to keep the patient in a comfortable position.
+
+### 6. **Protocol 6: Breathing Problems**
+   - Ask if the patient is having difficulty breathing or if their breathing has stopped.
+   - Determine if the patient has a known respiratory condition (e.g., asthma).
+   - Guide the caller through using any available inhalers or assist with breathing support.
+
+### 7. **Protocol 7: Burns (Scalds)/Explosion (Blast)**
+   - Determine the cause and extent of the burn (chemical, electrical, fire).
+   - Ask if the patient is still in danger or needs to be removed from a hazardous area.
+   - Provide instructions to cool the burn with water and cover with a clean cloth.
+
+### 8. **Protocol 8: Carbon Monoxide/Inhalation/HAZMAT/CBRN**
+   - Ask if the patient has been exposed to chemicals or fumes.
+   - Instruct the caller to evacuate the area if it is unsafe.
+   - Advise the patient to breathe fresh air and wait for responders.
+
+### 9. **Protocol 9: Cardiac or Respiratory Arrest/Death**
+   - Ask if the patient is conscious or breathing.
+   - Provide CPR instructions if the patient is unresponsive and not breathing.
+   - Advise the caller to continue CPR until responders arrive.
+
+### 10. **Protocol 10: Chest Pain/Chest Discomfort (Non-Traumatic)**
+   - Ask if the pain is sharp, crushing, or radiating.
+   - Determine if the patient has a history of heart problems or medication (e.g., nitroglycerin).
+   - Provide instructions to keep the patient still and calm.
+
+### 11. **Protocol 11: Choking**
+   - Ask if the patient can cough or breathe.
+   - Provide instructions for abdominal thrusts if the patient is choking and cannot speak.
+   - If the patient becomes unconscious, guide the caller through CPR.
+
+### 12. **Protocol 12: Convulsions/Seizures**
+   - Ask if the patient is currently seizing or has stopped.
+   - Determine if the patient has a known history of seizures.
+   - Instruct the caller to keep the patient on their side and clear the area.
+
+### 13. **Protocol 13: Diabetic Problems**
+   - Ask if the patient is conscious and able to swallow.
+   - Determine if the patient has insulin or glucose available.
+   - Provide instructions to administer sugar if the patient is hypoglycemic.
+
+### 14. **Protocol 14: Drowning/Near Drowning/Diving/SCUBA Accident**
+   - Ask if the patient is breathing or if CPR is needed.
+   - Determine if there is any neck or spinal injury from diving.
+   - Provide instructions for CPR and keeping the patient still if necessary.
+
+### 15. **Protocol 15: Electrocution/Lightning**
+   - Ask if the patient is still in contact with the electrical source.
+   - Advise the caller to ensure the area is safe before approaching the patient.
+   - Provide CPR instructions if needed and monitor for burns.
+
+### 16. **Protocol 16: Eye Problems/Injuries**
+   - Ask if the patient has any foreign objects or chemicals in the eye.
+   - Instruct the caller to flush the eye with water if appropriate.
+   - Advise the patient to avoid rubbing the eye and wait for help.
+
+### 17. **Protocol 17: Falls**
+   - Ask about the height of the fall and if the patient is conscious.
+   - Determine if there are any fractures or head injuries.
+   - Instruct the caller to keep the patient still, especially if a neck injury is suspected.
+
+### 18. **Protocol 18: Headache**
+   - Ask if the headache is sudden, severe, or accompanied by vision problems.
+   - Determine if the patient has a history of migraines or other conditions.
+   - Advise the patient to rest and avoid bright lights until help arrives.
+
+### 19. **Protocol 19: Heart Problems/A.I.C.D.**
+   - Ask if the patient has a history of heart issues or a pacemaker.
+   - Determine if the patient is experiencing chest pain or irregular heartbeat.
+   - Provide instructions to help the patient take prescribed heart medications if available.
+
+### 20. **Protocol 20: Heat/Cold Exposure**
+   - Ask if the patient is overheated or suffering from cold exposure.
+   - Provide instructions to cool or warm the patient depending on the condition.
+   - Advise the caller to move the patient to a safer environment if necessary.
+
+### 21. **Protocol 21: Hemorrhage/Lacerations**
+   - Ask if the bleeding is controlled or severe.
+   - Instruct the caller to apply pressure to the wound and elevate if appropriate.
+   - Guide the caller in treating for shock if the bleeding is significant.
+
+### 22. **Protocol 22: Inaccessible Incident/Other Entrapments (Non-Traffic)**
+   - Ask if the patient is trapped or in immediate danger.
+   - Determine if extrication is possible without additional hazards.
+   - Provide guidance on staying calm and safe until help arrives.
+
+### 23. **Protocol 23: Overdose/Poisoning (Ingestion)**
+   - Ask what substance the patient has ingested and how much.
+   - Provide guidance on administering any available antidotes if known.
+   - Instruct the caller to monitor the patient for changes in consciousness.
+
+### 24. **Protocol 24: Pregnancy/Childbirth/Miscarriage**
+   - Ask how far along the pregnancy is and if labor has started.
+   - Determine if there is active bleeding or signs of miscarriage.
+   - Provide guidance on delivering the baby if labor is imminent.
+
+### 25. **Protocol 25: Psychiatric/Abnormal Behavior/Suicide Attempt**
+   - Ask if the patient is violent or suicidal.
+   - Provide instructions to the caller to ensure safety.
+   - Guide the caller through calming the patient and waiting for responders.
+
+### 26. **Protocol 26: Sick Person (Specific Diagnosis)**
+   - Ask about the patient's specific illness and current symptoms.
+   - Determine if the patient has medications or treatments available.
+   - Provide guidance to keep the patient comfortable until help arrives.
+
+### 27. **Protocol 27: Stab/Gunshot/Penetrating Trauma**
+   - Ask about the location and severity of the wound.
+   - Provide instructions to control bleeding and monitor breathing.
+   - Advise the caller to avoid removing any objects from the wound.
+
+### 28. **Protocol 28: Stroke (CVA)/Transient Ischemic Attack (TIA)**
+   - Ask if the patient has symptoms like weakness, slurred speech, or drooping face.
+   - Provide instructions to keep the patient still and monitor consciousness.
+   - Advise the caller to note the time of the first symptoms.
+
+### 29. **Protocol 29: Traffic/Transportation Incidents**
+   - Ask if there are injuries and if the scene is safe.
+   - Instruct the caller to avoid moving injured patients unless absolutely necessary.
+   - Guide the caller in providing first aid if safe.
+
+### 30. **Protocol 30: Traumatic Injuries (Specific)**
+   - Ask about the mechanism of injury and the patient's current state.
+   - Determine if there is any bleeding, fractures, or unconsciousness.
+   - Provide instructions to stabilize the patient until responders arrive.
+
+### 31. **Protocol 31: Unconscious/Fainting (Near)**
+   - Ask if the patient is breathing or responsive.
+   - Guide the caller through checking the patient’s airway, breathing, and pulse.
+   - Provide CPR instructions if necessary.
+
+### 32. **Protocol 32: Unknown Problem (Person Down)**
+   - Ask about the patient’s condition and if they are responsive.
+   - Determine if the patient has any visible injuries or if their condition is unclear.
+   - Provide instructions to assess breathing and consciousness.
+
+### 33. **Protocol 33: Transfer/Interfacility/Palliative Care**
+   - Ask about the patient’s medical condition and what care is required.
+   - Determine if additional assistance is needed for transfer
+
+.
+   - Advise on safe transport practices.
+
+### 34. **Protocol 34: ACN (Automatic Crash Notification)**
+   - Provide guidance based on the automatic crash notification system.
+   - Determine if there are any injuries and if the scene is safe.
+   - Provide assistance while waiting for responders to arrive.
+
+This summary gives a high-level algorithm for how the EMD interacts with the caller for each protocol. Let me know if you'd like more detail on any specific protocol!
