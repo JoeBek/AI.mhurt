@@ -45,7 +45,7 @@ const AudioUpload = ({onUploadSuccess}) => {
             
         } catch (err) {
             //if an error occurs, store it
-            setError(err);
+            setError(err.message);
         }
     }
 
@@ -102,33 +102,51 @@ const AudioUpload = ({onUploadSuccess}) => {
         };
 
         return (
-            <div>
-                <h2>Upload or Record Audio</h2>
-                <div>
-                    {/* File input for uploading audio files */}
+            <div className="bg-white p-6 rounded shadow-lg max-w-md mx-auto">
+                <h2 className="text-2xl font-semibold text-gray-800 mb-4">Upload or Record Audio</h2>
+                <div className="mb-4">
                     <input
                         type="file"
                         accept="audio/mp3"
                         onChange={handleFileChange}
+                        className="block w-full text-sm text-gray-500"
                     />
-                    <button onClick={handleFileUpload} disabled={recording}>Upload Audio</button>
+                    <button
+                        onClick={handleFileUpload}
+                        disabled={recording}
+                        className="mt-4 bg-blue-500 text-white py-2 px-4 rounded disabled:bg-gray-400"
+                    >
+                        Upload Audio
+                    </button>
                 </div>
                 <div>
-                    {/* Conditional rendering based on recording state */}
                     {recording ? (
                         <div>
-                            <button onClick={stopRecording}>Stop Recording</button>
+                            <button
+                                onClick={stopRecording}
+                                className="bg-red-500 text-white py-2 px-4 rounded"
+                            >
+                                Stop Recording
+                            </button>
                         </div>
                     ) : (
-                        <button onClick={startRecording}>Start Recording</button>
+                        <button
+                            onClick={startRecording}
+                            className="bg-green-500 text-white py-2 px-4 rounded"
+                        >
+                            Start Recording
+                        </button>
                     )}
-                    {/* upload button only visible if a recording has been made */}
                     {blob && !recording && (
-                        <button onClick={handleMicrophoneUpload}>Upload Recording</button>
+                        <button
+                            onClick={handleMicrophoneUpload}
+                            className="mt-4 bg-blue-500 text-white py-2 px-4 rounded"
+                        >
+                            Upload Recording
+                        </button>
                     )}
                 </div>
-                {/* display error message if there is any */}
-                {error && <p style={{ color: 'red' }}>{error}</p>}
+                {error && <p className="mt-4 text-red-500">{error}</p>}
             </div>
         );
     };
