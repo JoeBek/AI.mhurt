@@ -13,9 +13,13 @@ const App = () => {
     };
 
     return (
-        <div className="App">
+        <div className="App bg-gray-100 min-h-screen flex flex-col items-center justify-center p-6">
             <Header />
-            <MockAudioUpload onUploadSuccess={handleUploadSuccess} />
+            <div className="text-center mb-6">
+                <h1 className="text-4xl font-bold text-gray-800 mb-4">Emergency Dispatcher Assistant</h1>
+                <p className="text-lg text-gray-600">Upload or record audio to get actionable questions for dispatching.</p>
+            </div>
+            <AudioUpload onUploadSuccess={handleUploadSuccess} />
             <QuestionList questions={questions} />
         </div>
     );
