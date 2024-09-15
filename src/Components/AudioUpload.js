@@ -27,7 +27,7 @@ const AudioUpload = ({onUploadSuccess}) => {
         //we cannot send it as a json object because json cannot handle binary data
         //this allows us to store the file without hardcoding
         const formData = new FormData();
-        formData.append('mp3File', selectedFile);
+        formData.append('file', selectedFile);
 
         try {
             //uploads the audio to the Flask endpoint via POST request
@@ -39,16 +39,9 @@ const AudioUpload = ({onUploadSuccess}) => {
             if (!response.ok) {
                 throw new Error('Failed to upload the audio');
             }
-
-            // Fetch the questions list from the /api/download endpoint
-            const downloadResponse = await fetch('https://dtr34-fastapi--8000.prod1.defang.dev/api/download');
-
-            if (!downloadResponse.ok) {
-                throw new Error('Failed to fetch questions');
-            }
-            const data = await downloadResponse.json(); //gets json from the backend
+            const data = await response.json(); //gets json from the backend
             onUploadSuccess(data.questions);
-            
+
         } catch (err) {
             //if an error occurs, store it
             setError(err.message);
@@ -86,24 +79,18 @@ const AudioUpload = ({onUploadSuccess}) => {
                 formData.append('mp3File', blob, 'recording.mp3');
     
                 try {
-                    //same as file upload, bring it to the backend
+                    //uploads the audio to the Flask endpoint via POST request
                     const response = await fetch('https://dtr34-fastapi--8000.prod1.defang.dev/api/upload', {
                         method: 'POST',
                         body : formData,
                     });
-    
+                    //checks HTTP status code OK
                     if (!response.ok) {
                         throw new Error('Failed to upload the audio');
                     }
-    
-                    const downloadResponse = await fetch('https://dtr34-fastapi--8000.prod1.defang.dev/api/download');
-
-                    if (!downloadResponse.ok) {
-                        throw new Error('Failed to fetch questions');
-                    }
-                    const data = await downloadResponse.json();
+                    const data = await response.json(); //gets json from the backend
                     onUploadSuccess(data.questions);
-                    
+        
                 } catch (err) {
                     setError(err.message);
                 }
