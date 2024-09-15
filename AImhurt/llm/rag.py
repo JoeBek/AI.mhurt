@@ -15,8 +15,10 @@ from openai import AzureOpenAI as Azure
 import azure.cognitiveservices.speech as speechsdk
 import os
 
+
 AZURE_OPENAI_KEY = '5e927c96f334473194cee5f3665c7a91'
 AZURE_SPEECH_KEY = 'bfba7ba26e03437da6f7750bb24a87e2'
+
 
 class Whisper():
 
